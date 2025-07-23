@@ -21,3 +21,6 @@ xUyUz=x.union(y).union(z)  # union of multiple sets
 print("Union of x, y, and z:", xUyUz)
 xNyNz=x.intersection(y).intersection(z) # intersection of multiple sets
 print("Intersection of x, y, and z:", xNyNz)
+
+result=x.difference(y)  # difference between two sets
+print("Difference between x and y:", result)
